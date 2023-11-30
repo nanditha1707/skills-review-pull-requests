@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.jss" defer></script>
+    </head>
+    
+    <body>
+        
+        <header>
+            <a href="index.html"><h2>NANI's Bakes</h2></a>
+        </header>
+    
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about%20us.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="review.html">Reviews</a>
+            <a href="contact%20us.html">Contact Us</a>  
+            <a href="faq.html">FAQs</a>
+            <a href= #footer >Newsletter</a>
+        </nav>
+    
+        <section class="content">
+            <img src="sugar.jpg" >
+            <div>
+                <h1> Two Years of Sweet Success!</h1>
+                <p>Welcome to Nani's Bakery, where passion meets resilience in the heart of challenging times. Founded in the midst of the COVID-19 pandemic, our bakery has been a labor of love, determination, and a dash of magic. As we mark our two-year milestone, we reflect on the journey that brought Nani's Bakery to life.</p>
+                <h2>Our Story: Rising from Adversity</h2>
+                <p>In the face of uncertainty, our founder, Nanditha, envisioned a haven where people could find comfort and joy through the simple pleasure of freshly baked goods. Inspired by the idea that even in tough times, life can still flourish, nanditha set out to create a bakery that would become a beacon of hope and a source of delicious respite.</p>
+                <h2>Quality Ingredients, Time-Honored Techniques</h2>
+                <p>At Nani's Bakery, we believe in the power of quality ingredients and time-honored baking techniques. Our skilled bakers craft each treat with precision, using only the finest flours, sugars, and flavors. Every bite tells a story of dedication to the art of baking and a commitment to delivering a delightful experience to our customers.</p>
+                <h2>Community Connection</h2>
+                <p>Amidst the challenges of the pandemic, Nani's Bakery has become more than just a place to satisfy your sweet cravings. We are a community hub, a gathering place where locals connect over coffee, pastries, and shared experiences. Our commitment to supporting local products and suppliers ensures that our community thrives along with us.</p>
+                <h2>Celebrating Two Year of Flourishing Together</h2>
+                <p>As we celebrate our second anniversary, we extend our heartfelt gratitude to our loyal customers, dedicated team, and the resilient community that has embraced Nani's Bakery. Your support has been the secret ingredient that has allowed us to not only survive but thrive.</p>
+                <h2>Join the Celebration</h2>
+                <p>Come and celebrate with us at Nani's Bakery! Indulge in our delectable treats, savor the warmth of our welcoming atmosphere, and be a part of a story that proves sweetness can emerge even in the toughest times. Thank you for two years of joy, resilience, and delicious memories. Here's to many more years of flourishing together!</p>
+                <h2>Nani's Bakery - Where Every Bite Tells a Tale of Resilience and Sweet Success.</h2>
+            </div>
+        </section>
+
+        <section id="footer">
+            <footer>
+                <p><h3>NEWSLETTER</h3></p>
+                <p><h4>Subscribe to receive updates and more.</h4></p>
+                <p><button onclick="openModal()">SUBSCRIBE NOW</button></p>
+                <a href="https://www.example.com" target="_blank">Instagram</a>
+                <a href="https://www.example.com" target="_blank">TikTok</a>
+                <a href="https://www.example.com" target="_blank">Facebook</a>
+                <a href="https://www.example.com" target="_blank">Twitter</a>
+            </footer>
+        </section>
+
+        <section id="modal" class="modal">
+            <div class="modal-content">
+                <div class="close" onclick="closeModal()">&times;</div>
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Interested to know about our monthly and weekly specials? Subscribe here and never miss our specials.</p>
+                <form>
+                    <p><label for="email">Email:</label></p>
+                    <input type="email" id="email" name="email" required>
+                    <p><label for="password">Password:</label></p>
+                    <input type="password" id="password" name="password" required>
+                    <button type="button" onclick="submitForm()">Subscribe Now</button>
+                </form>
+            </div>
+        </section>
+    </body>
+    
+</html>

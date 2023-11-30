@@ -1,36 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <link rel="stylesheet" href="Normalize.css">
         <link rel="stylesheet" href="style.css">
-        <script src="script.jss" defer></script>
     </head>
     
     <body>
 
         <header>
-            <a href="index.html"><h2>NANI's Bakes</h2></a>
+            <a href="home page.html"><h2>NANI's Bakes</h2></a>
         </header>
     
         <nav>
             <a href="index.html">Home</a>
-            <a href="about%20us.html">About Us</a>
-            <a href="menu.html">Menu</a>
+            <a href="about us.html">About Us</a>
+            <a href="order now.html">Order Now</a>
             <a href="review.html">Reviews</a>
-            <a href="contact%20us.html">Contact Us</a>
+            <a href="contact us.html">Contact Us</a>
             <a href="faq.html">FAQs</a>
             <a href= #footer >Newsletter</a>
         </nav>
-
-        <section class="pic">
-            <img src="horizontal pic.jpg" width="1263" height="470">
-        </section>
-
-        <section class="outlets">
-
-            
-        </section>
-
+    
         <section id="footer">
             <footer>
                 <p><h3>NEWSLETTER</h3></p>
@@ -47,15 +36,33 @@
             <div class="modal-content">
                 <div class="close" onclick="closeModal()">&times;</div>
                 <h2>Subscribe to Our Newsletter</h2>
-                <p>Interested to know about our monthly and weekly specials? Subscribe here and never miss our specials.</p>
+                <h4>Interested to know about our monthly and weekly specials? Subscribe here and never miss our specials.</h4>
                 <form>
-                    <p><label for="email">Email:</label></p>
+                    <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
-                    <p><label for="password">Password:</label></p>
+                    <label for="password">Password:</label>
                     <input type="password" id="password" name="password" required>
                     <button type="button" onclick="submitForm()">Subscribe Now</button>
                 </form>
             </div>
         </section>
+        
+        
+    
+        <script>
+            function openModal() {
+                document.getElementById('modal').style.display = 'block';
+            }
+    
+            function closeModal() {
+                document.getElementById('modal').style.display = 'none';
+            }
+    
+            function submitForm() {
+                closeModal();
+            }
+        </script>
+    
     </body>
+    
 </html>

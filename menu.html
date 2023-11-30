@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.jss" defer></script>
+    </head>
+
+    <body>
+
+        <header>
+            <a href="index.html"><h2>NANI's Bakes</h2></a>
+        </header>
+    
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about%20us.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="review.html">Reviews</a>
+            <a href="contact%20us.html">Contact Us</a>  
+            <a href="faq.html">FAQs</a>
+            <a href= #footer >Newsletter</a>
+        </nav>
+    
+        <section class ="image-container">
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=cookies&rs=typed" target="_blank"><img src="cookies.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=cookies&rs=typed" target="_blank"><p>cookies</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=donuts&rs=typed" target="_blank"><img src="donuts.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=donuts&rs=typed" target="_blank"><p>donuts</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=cupcakes&rs=typed" target="_blank"><img src="cupcakes.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=cupcakes&rs=typed" target="_blank"><p>cupcakes</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=muffins&rs=typed" target="_blank"><img src="muffins.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=muffins&rs=typed" target="_blank"><p>muffins</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=tarts&rs=typed" target="_blank"><img src="tarts.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=tarts&rs=typed" target="_blank"><p>tarts</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=loaf%20bread&rs=typed" target="_blank"><img src="loaf bread.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=loaf%20bread&rs=typed" target="_blank"><p>bread</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=cake&rs=typed" target="_blank"><img src="cakes.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=cake&rs=typed" target="_blank"><p>cakes</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=ice%20cream&rs=typed" target="_blank"><img src="ice cream.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=ice%20cream&rs=typed" target="_blank"><p>ice cream</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=macaroons&rs=typed" target="_blank"><img src="macaroons.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=macaroons&rs=typed" target="_blank"><p>macaroons</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=brownie&rs=typed" target="_blank"><img src="brownie.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=brownie&rs=typed" target="_blank"><p>brownie</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=pastry&rs=typed" target="_blank"><img src="pastry.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=pastry&rs=typed" target="_blank"><p>pastry</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=brunch&rs=typed" target="_blank"><img src="brunch.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=brunch&rs=typed" target="_blank"><p>brunch</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=drinks&rs=typed" target="_blank"><img src="drinks.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=drinks&rs=typed" target="_blank"><p>drinks</p></a>
+            </div>
+            <div>
+                <a href="https://www.pinterest.com/search/pins/?q=bakery%20food&rs=typed" target="_blank"><img src="others.jpg"></a>
+                <a href="https://www.pinterest.com/search/pins/?q=bakery%20food&rs=typed" target="_blank"><p>others</p></a>
+            </div>
+        </section>
+            
+        <section id="footer">
+            <footer>
+                <p><h3>NEWSLETTER</h3></p>
+                <p><h4>Subscribe to receive updates and more.</h4></p>
+                <p><button onclick="openModal()">SUBSCRIBE NOW</button></p>
+                <a href="https://www.example.com" target="_blank">Instagram</a>
+                <a href="https://www.example.com" target="_blank">TikTok</a>
+                <a href="https://www.example.com" target="_blank">Facebook</a>
+                <a href="https://www.example.com" target="_blank">Twitter</a>
+            </footer>
+        </section>
+
+        <section id="modal" class="modal">
+            <div class="modal-content">
+                <div class="close" onclick="closeModal()">&times;</div>
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Interested to know about our monthly and weekly specials? Subscribe here and never miss our specials.</p>
+                <form>
+                    <p><label for="email">Email:</label></p>
+                    <input type="email" id="email" name="email" required>
+                    <p><label for="password">Password:</label></p>
+                    <input type="password" id="password" name="password" required>
+                    <button type="button" onclick="submitForm()">Subscribe Now</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
